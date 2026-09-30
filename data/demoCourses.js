@@ -1,0 +1,48 @@
+import { Code2, BarChart3, Palette, Megaphone } from "lucide-react";
+
+export const demoCourses = [
+  {
+    id: "full-stack-web-development",
+    title: "The Complete Full-Stack Web Development Bootcamp",
+    instructor: "Sarah Chen",
+    level: "Beginner",
+    rating: 4.8,
+    students: 12400,
+    price: 79.99,
+    originalPrice: 129.99,
+    icon: Code2,
+  },
+  {
+    id: "python-for-data-science",
+    title: "Python for Data Science and Machine Learning",
+    instructor: "Marcus Webb",
+    level: "Intermediate",
+    rating: 4.7,
+    students: 9800,
+    price: 74.99,
+    originalPrice: 119.99,
+    icon: BarChart3,
+  },
+  {
+    id: "ui-ux-design-fundamentals",
+    title: "UI/UX Design Fundamentals: From Wireframe to Prototype",
+    instructor: "Priya Nair",
+    level: "Beginner",
+    rating: 4.9,
+    students: 7600,
+    price: 64.99,
+    originalPrice: 99.99,
+    icon: Palette,
+  },
+  {
+    id: "digital-marketing-mastery",
+    title: "Digital Marketing Mastery: SEO, Ads and Analytics",
+    instructor: "James Okafor",
+    level: "Beginner",
+    rating: 4.6,
+    students: 5300,
+    price: 59.99,
+    originalPrice: 94.99,
+    icon: Megaphone,
+  },
+];
