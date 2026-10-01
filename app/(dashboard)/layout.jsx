@@ -6,7 +6,6 @@ export default function DashboardLayout({ children }) {
   return (
     <AuthGuard>
       <div className="flex min-h-screen flex-col">
-       
         <div className="flex flex-1">
           <DashboardSidebar />
           <main className="flex-1 py-8">
