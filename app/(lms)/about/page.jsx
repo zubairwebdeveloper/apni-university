@@ -12,10 +12,10 @@ const values = [
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto max-w-6xl px-4 py-12">
+    <div className="container mx-auto mt-12 px-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl font-bold">About Apni University</h1>
       <div className="mt-6 grid items-center gap-8 md:grid-cols-2">
-        <p className="text-slate-600">
+        <p className="text-slate-600 ">
           Apni University was founded to give every student a fair chance at a great education. Our modern campus has
           smart classrooms, research labs, a digital library, sports facilities and a career center. Our faculty
           combines academic experience with industry practice.
